@@ -453,31 +453,319 @@
     line-height: 83px;
 }
 
-@media(max-width:375px){
-    .f-right{
-        font-size: 25px;
+
+@media only screen 
+    and (max-width : 768px)  {
+
+        
+    .ht-right a{
+        font-size: 10px;
     }
 
-    .search-icon-wrapper input{
-        /* display: none; */
+    .hb-left li{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .pfb-left .submit-button{
+        display: none;
+    }
+
+    .fifth-right .t1,.t2{
+        width: 100%;
+        /* width: 391px; */
+        /* float: left; */
+    }
+
+
+    
+
+
+    .second-body a{
+        padding-top: 10px;
+    }
+
+    .second-body .image{
+        display: none;
+    }
+
+    .second-body .nbs{
+        display: none;
+    }
+
+    .second-body .nbf{
+        line-height: 20px;
+        font-size: 16px;
     }
 
     .third-body li{
-        float: left;
-        /* padding-left: 10px;
-        padding-right: 10px; */
-        padding-left: 15%;
-        padding-right: 15%;
-        width: 70%;
+        padding-left: 2%;
+        padding-right: 0px;
+        width: 30%;
     }
 
     .third-body li img{
         width: 100%;
     }
 
-    .third-body li a{
-        top:-230px;
-        font-size: 30px;
+    .shoes-images .imageDesc{
+        width: 30%;
+        margin-bottom: 20px;
+        margin-left: 15px;
+        margin-right: 5px;
     }
+
+    .shoes-images img{
+        width: 100%;
+    }
+
+    .shoes-images .Desc{
+        width: 100%;
+        text-align: right;
+        float: right;
+    }
+
+    .shoes-images .Desc .fbfi-content{
+        width: 90%;
+    }
+
+    .shoes-images .Desc .fbfi-content li{
+        padding-top: 10px;
+        width: 15%;
+        /* display: none; */
+    }
+
+    
+    .fifth-left{
+        width: 100%;
+    }
+
+    .fifth-left li{
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 18px;
+    
+    }
+
+    .fifth-right{
+        margin-top: 30px;
+        float: left;
+        padding-left: 5%;
+        width: 95%;
+        margin-bottom: 20px;
+    }
+
+    .fifth-right .header-text{
+        padding-top: 0px;
+    }
+
+    .fifth-right .lower-text{
+        width: 100%;
+    }
+
+    .fifth-right .lu-text, .ll-text{
+        width: 100%;
+    }
+
+    .fifth-right .image{
+        width: 10%;
+    }
+
+    .fifth-right img{
+        width: 80%;
+    }
+
+    .fifth-right .text-only{
+        width: 85%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }   
+
+    
+
+    .ll-text{
+        padding-bottom: 30px;
+    }
+
+    
+
+
+    .pfb-left .text-input{
+        width: 250px;
+    }  
+
+    .f-left li{
+        font-size: 14px;
+    }
+    
+    .f-right li{
+        padding-left: 0px;
+        font-size: 12px;
+    }
+    .f-right li:last-child{
+        padding-right: 0px;
+    }
+
+    .f-right a{
+        line-height: 20px;
+    }
+
+    .f-right span{
+        line-height: 20px;
+    }   
+
+
+
+    /* Styles */
+}
+
+@media(max-width:375px){
+
+
+    .ht-right a{
+        font-size: 10px;
+    }
+
+    .hamburger-button{
+        float: left;
+        width: 20px;
+        height: 60px;
+    }
+
+    .hamburger-button button{
+        width: 100%;
+        margin-top: 70%;
+        height: 50%;
+        border: none;
+        background: transparent;
+        background-image: url('../images/list.png');
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+    }
+
+    .second-body a{
+        padding-top: 10px;
+    }
+
+    .second-body .image{
+        display: none;
+    }
+
+    .second-body .nbs{
+        display: none;
+    }
+
+    .second-body .nbf{
+        line-height: 20px;
+        font-size: 16px;
+    }
+
+    .third-body li{
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 100%;
+    }
+
+    .third-body li img{
+        width: 100%;
+    }
+
+    .shoes-images .imageDesc{
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+
+    .shoes-images .Desc{
+        width: 100%;
+    }
+
+    .fifth-left{
+        width: 100%;
+    }
+
+    .fifth-left li{
+        margin-top: 20px;
+
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 18px;
+    
+    }
+
+    .fifth-right{
+        margin-top: 30px;
+        float: left;
+        padding-left: 5%;
+        width: 95%;
+        margin-bottom: 20px;
+    }
+
+    .fifth-right .header-text{
+        padding-top: 0px;
+    }
+
+    .fifth-right .lower-text{
+        width: 100%;
+    }
+
+    .fifth-right .lu-text, .ll-text{
+        width: 100%;
+    }
+
+    .fifth-right .image{
+        width: 10%;
+    }
+
+    .fifth-right img{
+        width: 100%;
+    }
+
+    .fifth-right .text-only{
+        width: 85%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }   
+
+    
+
+    .ll-text{
+        padding-bottom: 30px;
+    }
+
+    
+
+
+    .pfb-left .text-input{
+        width: 250px;
+    }  
+
+    .f-left li{
+        font-size: 14px;
+    }
+    
+    .f-right li{
+        padding-left: 0px;
+        font-size: 12px;
+    }
+    .f-right li:last-child{
+        padding-right: 0px;
+    }
+
+    .f-right a{
+        line-height: 20px;
+    }
+
+    .f-right span{
+        line-height: 20px;
+    }   
 
 }

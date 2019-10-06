@@ -99,7 +99,7 @@
 }
 
 .fbf-content, .fbs-content, .fbt-content, .fbfi-content{
-    float: left;
+    float: right;
     width: 440px;
 }
 
@@ -180,7 +180,7 @@
 
 .fourth-header .shoes-images{
     float: left;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .fifth-body{
@@ -213,13 +213,9 @@
 
 
 .pft-left{
-    /* padding-top:26px; */
-    /* padding-left: 50px; */
     padding-left: 5.20833%;
     float:left;
-    /* padding-right: 40px; */
     padding-right: 4.1666%;
-    /* width: 260px; */
     width: 27.0833%;
     padding-bottom: 60px;
 }
@@ -261,13 +257,9 @@
 
 
 
-.pfb-left{
-    
-    /* height: 100px; */
+.pfb-left{ 
     float: left;
-    /* padding-left: 50px;    */
     padding-left: 5.2083%;
-    /* width: 250px; */
     width: 26.0416%;
 }
 
@@ -300,44 +292,242 @@
     list-style: none;
 }
 
+@media only screen 
+    and (max-width : 768px)  {
+
+        .header,.footer, .pre-footer, .main-body{
+            min-width: 768px;
+            width: 100%;
+        }
+
+        .first-body, .carousel-body{
+            display: none;
+        }
+
+        .ht-right{
+            width: 20%;
+            
+        }
+    
+        .search-icon-wrapper{
+            width: 10%;
+            
+        }
+    
+        .login-register{
+            line-height: 40px;
+    
+        }
+    
+        .wrapper{
+            width: 95%;
+            margin: 0 auto;
+        }
+    
+    
+        .second-body .wrapper{
+            background-image: none;
+            padding-bottom: 10px;
+        }
+    
+        .fourth-header .header-fleft{
+            line-height: 60px;
+        }
+    
+        .fourth-body .header-fright{
+            float: left;
+            width: 100%;
+            padding-top: 10px;
+        }
+    
+        .fourth-header .shoes-images{
+            width: 100%;
+        }
+    
+        .pfooter-top .wrapper{
+            width: 90%;
+            padding-top:0px;
+            
+        }
+        
+        
+        .pft-left{
+            padding-left: 0px;
+            padding-right: 0px;
+            width: 100%;
+            padding-bottom: 10px;
+        }
+    
+        .pft-middle{
+            width:100%;
+        }
+    
+        .pft-right{
+            float: left;
+            width: 90%;
+            padding-left: 0px;
+            padding-bottom: 50px;
+    
+        }
+    
+        .pfb-left{ 
+            /* width: 100%; */
+            padding-left: 0px;
+        }
+    
+        .pfb-right{
+            /* padding-top: 30px; */
+            float: right;
+            /* width: 100%; */
+            /* padding-left: 15%; */
+            padding-right: 15%;
+            /* margin: 0 auto; */
+        }
+    
+        .footer .wrapper{
+            padding-top: 30px;
+        }
+        
+        .f-left{
+            /* padding-left: 20%; */
+            padding-top: 0px;
+        }
+    
+        .f-right{
+            float: right;
+            padding-bottom: 20px;
+        }
+    
+        .hb-left{
+            width: 60%;
+            float: left;
+            /* 590px; */
+            /* width:0px; */
+            /* line-height:0px; */
+            /* display: none; */
+        }
+
+        
+    
+        .hb-right{
+            width: auto;
+        }  
+
+}
+
 
 @media(max-width:375px){
-
-    .header .wrapper{
-        width:100%;
+    .header,.footer, .pre-footer, .main-body{
         min-width: 320px;
+        width: 100%;
     }
 
-    .image-wrapper{
-        /* padding-left: 20%; */
-        /* float: left; */
-        width: 50%;
-        float: right;
-    }
-
-    .image-wrapper img{
-        width: 60%;
-
+    .ht-right{
+        width: 40%;
+        
     }
 
     .search-icon-wrapper{
-        float: left;
-        width: 50%;
+        width: 10%;
+        
     }
 
-    
+    .login-register{
+        line-height: 40px;
 
-
-    .first-body{
-        display:none;
     }
 
-    .f-left{
+    .wrapper{
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .first-body, .carousel-body{
         display: none;
     }
-    
-    .f-right{
-        width: 100%;    
+
+    .second-body .wrapper{
+        background-image: none;
+        padding-bottom: 10px;
     }
-   
+
+    .fourth-header .header-fleft{
+        line-height: 60px;
+    }
+
+    .fourth-body .header-fright{
+        float: left;
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .fourth-header .shoes-images{
+        width: 100%;
+    }
+
+    .pfooter-top .wrapper{
+        width: 90%;
+        padding-top:0px;
+        
+    }
+    
+    
+    .pft-left{
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .pft-middle{
+        width:100%;
+    }
+
+    .pft-right{
+        float: left;
+        width: 90%;
+        padding-left: 0px;
+        padding-bottom: 50px;
+
+    }
+
+    .pfb-left{ 
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .pfb-right{
+        padding-top: 30px;
+        float: left;
+        width: 100%;
+        /* padding-left: 15%; */
+        padding-right: 15%;
+        /* margin: 0 auto; */
+    }
+
+    .footer .wrapper{
+        padding-top: 30px;
+    }
+    
+    .f-left{
+        /* padding-left: 20%; */
+        padding-top: 0px;
+    }
+
+    .f-right{
+        float: left;
+        padding-bottom: 20px;
+    }
+
+    .hb-left{
+        float: left;
+        /* 590px; */
+        width:0px;
+        line-height:0px;
+        display: none;
+    }
+
+    .hb-right{
+        width: auto;
+    }  
 }
