@@ -454,8 +454,7 @@
 }
 
 
-@media only screen 
-    and (max-width : 768px)  {
+@media(max-width:768px)  {
 
         
     .ht-right a{
@@ -473,8 +472,10 @@
 
     .fifth-right .t1,.t2{
         width: 100%;
-        /* width: 391px; */
-        /* float: left; */
+    }
+
+    .fourth-body .fbfi-content{
+        height: auto;
     }
 
 

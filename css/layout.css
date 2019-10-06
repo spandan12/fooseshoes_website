@@ -292,8 +292,7 @@
     list-style: none;
 }
 
-@media only screen 
-    and (max-width : 768px)  {
+@media(max-width:768px) {
 
         .header,.footer, .pre-footer, .main-body{
             min-width: 768px;
