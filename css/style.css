@@ -1,5 +1,5 @@
 .main-wrapper {
-    font-family: 'Aller';
+    font-family: 'Arial';
     font-size:12px;
 }
 
@@ -27,10 +27,6 @@
 
 
 .hb-left li{
-    padding-left: 4.0677%;
-    padding-right: 4.0677%;
-   /* padding-left:24px; */
-   /* padding-right:24px; */
    border-right: 2px solid #eeeeee; 
    float:left;
 }
@@ -39,10 +35,21 @@
     border-right:none;
 }
 
-.hb-left a{
+.hb-left li a{
+    /* width: 90%; */
+    /* line-height: 60px; */
+    padding-left: 24px;
+    padding-right: 24px;
     text-decoration: none;
-    display: block;
+    display : block;
     color: black;
+}
+
+
+.hb-left a:hover{
+    color: white;
+    background-color: #57c5a0;
+
 }
 
 .hb-right ul{
@@ -67,12 +74,16 @@
     cursor: pointer;
 }
 
+
 .hb-right .second input{
     background-color: #57c5a0;
 }
 
 .hb-right .first input{
     background-color: #adadad;
+}
+.hb-right .first input:hover{
+    background-color: #57c5a0;
 }
 
 .hb-right .first{  
@@ -82,6 +93,10 @@
 .hb-right .second{
     border-left: 2px solid #cccccc;
     padding-left: 23px;
+}
+
+.hamburger-button{
+    display: none;
 }
 
 
@@ -120,10 +135,7 @@
 
 .second-body ul li{
     position:relative;
-    /* width: 180px; */
-    width:18.75%;
-    /* padding-left: 10px; */
-   
+    width:18.75%;   
     float: left;
     padding-left: 1.0416%;
     
@@ -141,7 +153,7 @@
     float: left;
     text-align:center;
     font-size: 18px;
-    font-family: "Aller";
+    font-family: "Arial";
     line-height: 50px;
 }
 
@@ -150,7 +162,7 @@
     float: left;
     text-align:center;
     font-size: 12px;
-    font-family: "Aller";
+    font-family: "Arial";
     padding-bottom:25px;
 }
 
@@ -185,7 +197,6 @@
 .third-body a{
     opacity: 0.88;
     filter: alpha(opacity=88); 
-    /* left:60px; */
     left: 20%;
     position: relative;
     top:-120px;
@@ -199,6 +210,11 @@
     background-color: #242424;
 }
 
+.third-body a:hover{
+    opacity: 1;
+    filter: alpha(opacity=1);
+}
+
 .fourth-body input{
     cursor: pointer;
     /* width: 100px; */
@@ -208,6 +224,12 @@
     background-color:#ebe7df;
     color: #bcb5a7;
 }
+
+.fourth-body input:hover{
+    background-color: #50b08f;
+    color:white;
+}
+
 
 .shoes-images .imageDesc{
     /* width: 300px; */
@@ -225,7 +247,7 @@
     /* padding-left: 93px; */
     text-align: center;
     font-size: 18px;
-    font-family: "Aller";
+    font-family: "Arial";
     color: rgb(36, 36, 36);
     border-top: 2px solid #cccccc;
 }
@@ -251,8 +273,14 @@
     text-align: center;
     bottom:0px;
     font-size: 13px;
-    font-family: "Aller";
+    font-family: "Arial";
     line-height: 66px;
+}
+
+.fourth-body .price-info:hover{
+    cursor: pointer;
+    opacity: 0.88;
+    filter: alpha(opacity=88); 
 }
 
 .fourth-body .on-sale{
@@ -267,9 +295,15 @@
     /* display: block; */
     top:0px;
     font-size: 13px;
-    font-family: "Aller";
+    font-family: "Arial";
     line-height: 66px;
     font-weight: bold;
+}
+
+.fourth-body .on-sale:hover{
+    cursor: pointer;
+    opacity: 0.88;
+    filter: alpha(opacity=88); 
 }
 
 .fourth-body .out{
@@ -283,6 +317,11 @@
 .fifth-left{
     list-style: none;
     float: left;
+    
+}
+.fifth-left a{
+    text-decoration: none;
+    color: black;
 }
 
 .fifth-left li{
@@ -304,7 +343,6 @@
 }
 
 .fifth-left p{
-    text-align: justify;
     line-height: 20px;
    
 }
@@ -321,7 +359,7 @@
     line-height: 44px;
     padding-top: 18px;
     font-weight: bold;
-    font-family: "Aller";
+    font-family: "Arial";
     font-size: 14px;
 
     /* background-color: red; */
@@ -330,16 +368,35 @@
   
 
 .fifth-right .lu-text, .ll-text{
-    /* background-color: blue; */
-    /* width: 100%; */
     float: left;    
     width: 443px;
     padding-bottom: 14px;
 }
 
+.lu-text a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
 
 .ll-text{
     padding-bottom: 106px;
+}
+
+.lu-text a:hover{
+    color: #50b08f;
+}
+
+
+.ll-text a{
+    text-decoration: none;
+    color: black;
+}
+
+.ll-text a:hover{
+    color: #50b08f;
 }
 
 .fifth-right .image{
@@ -366,20 +423,19 @@
 .fifth-right .t2{
     font-size: 12px;
 }
-.pftl-text p{
-    text-align:justify;
-}
+
 
 .pftm-text{
     list-style: none;
 }
 
 .pftm-text .mention{
+    text-decoration: none;
     color: #50b08f;
 }
 
-.pftm-text p{
-    text-align:justify; 
+.pftm-text .mention:hover{
+    color: #61eebd;
 }
 
 .pftm-text .time-frame{
@@ -435,11 +491,21 @@
     /* line-height: 6px; */
 }
 
+.f-left .company-name{
+    text-decoration: none;
+    color: #979797;
+}
+
+.f-left .company-name:hover{
+    color: white;
+}
+
 .f-right li{
     padding-left: 4px;
     padding-right:4px;
     float: left;
 }
+
 
 .f-right a{
     line-height: 83px;
@@ -448,22 +514,46 @@
     text-decoration: none;
 }
 
+.f-right a:hover{
+    color: #ffffff;
+}
+
 .f-right span{
     color: #7b7b7b;
     line-height: 83px;
 }
 
 
-@media(max-width:768px)  {
+@media(max-width : 600px)  {
 
         
     .ht-right a{
         font-size: 10px;
     }
 
-    .hb-left li{
+    /* .hb-left li{
         padding-left: 2%;
         padding-right: 2%;
+    } */
+
+    .hamburger-button{
+        display: block;
+        float: left;
+        width: 20px;
+        height: 60px;
+        background-image: url('../images/list.png');
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+    }
+
+    .hb-left li{
+        border-right: none;
+        width: 100%;
+    }
+
+    .hb-left li a{
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .pfb-left .submit-button{
@@ -474,12 +564,11 @@
         width: 100%;
     }
 
+    
+
     .fourth-body .fbfi-content{
         height: auto;
-    }
-
-
-    
+    }    
 
 
     .second-body a{
@@ -624,7 +713,7 @@
     /* Styles */
 }
 
-@media(max-width:375px){
+@media(max-width : 375px){
 
 
     .ht-right a{
@@ -632,21 +721,25 @@
     }
 
     .hamburger-button{
+        display: block;
         float: left;
         width: 20px;
         height: 60px;
-    }
-
-    .hamburger-button button{
-        width: 100%;
-        margin-top: 70%;
-        height: 50%;
-        border: none;
-        background: transparent;
         background-image: url('../images/list.png');
         background-position: 50% 50%;
         background-repeat: no-repeat;
     }
+
+    .hb-left li{
+        border-right: none;
+        width: 100%;
+    }
+
+    .hb-left li a{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
 
     .second-body a{
         padding-top: 10px;

@@ -50,6 +50,10 @@
     line-height: 45px;
 }
 
+.login-register a:hover{
+    color: white;
+}
+
 
 .header-bottom {
     background-color: #ffffff;
@@ -58,7 +62,7 @@
 
 .hb-left{
     float: left;
-    /* 590px; */
+    display: block;
     width:61.4583%;
     line-height:60px;
     list-style: none;
@@ -95,7 +99,11 @@
 }
 
 .first-body{
+    position: relative;
+    /* background-color: #edece8; */
     background-image: url('../images/logos/Bg.png');
+    background-repeat: no-repeat;
+    background-position: 0 0;
 }
 
 .fbf-content, .fbs-content, .fbt-content, .fbfi-content{
@@ -106,12 +114,13 @@
 .fbfo-content{
     float: left;
     width: 300px;
-    margin-right: 132px;
+    padding-left: 43%;
+    /* margin-right: 132px; */
     line-height: 20px;
 }
 
 .fb-content{
-    padding-left: 521px;
+    padding-left: 20%;
     padding-top: 70px;
 }
 
@@ -178,6 +187,7 @@
     width: 10.4166%;
 }
 
+
 .fourth-header .shoes-images{
     float: left;
     /* width: 100%; */
@@ -233,11 +243,8 @@
 }
 
 .pft-right{
-    /* padding-top:26px; */
     float: left;
     padding-left: 5.8333%;
-    /* padding-left: 56px; */
-    /* width: 252px; */
     width: 26.25%;
 }
 
@@ -287,12 +294,11 @@
 }
 
 .f-right{
-    /* background-color: red; */
     float: right;
     list-style: none;
 }
 
-@media(max-width:768px) {
+@media(max-width : 600px) {
 
         .header,.footer, .pre-footer, .main-body{
             min-width: 768px;
@@ -370,17 +376,12 @@
         }
     
         .pfb-left{ 
-            /* width: 100%; */
             padding-left: 0px;
         }
     
         .pfb-right{
-            /* padding-top: 30px; */
             float: right;
-            /* width: 100%; */
-            /* padding-left: 15%; */
             padding-right: 15%;
-            /* margin: 0 auto; */
         }
     
         .footer .wrapper{
@@ -388,7 +389,6 @@
         }
         
         .f-left{
-            /* padding-left: 20%; */
             padding-top: 0px;
         }
     
@@ -396,14 +396,11 @@
             float: right;
             padding-bottom: 20px;
         }
-    
         .hb-left{
-            width: 60%;
-            float: left;
-            /* 590px; */
+            float: none;
             /* width:0px; */
             /* line-height:0px; */
-            /* display: none; */
+            display: none;
         }
 
         
@@ -415,7 +412,7 @@
 }
 
 
-@media(max-width:375px){
+@media(max-width : 375px){
     .header,.footer, .pre-footer, .main-body{
         min-width: 320px;
         width: 100%;
@@ -498,10 +495,8 @@
     .pfb-right{
         padding-top: 30px;
         float: left;
-        width: 100%;
-        /* padding-left: 15%; */
+        width: 85%;
         padding-right: 15%;
-        /* margin: 0 auto; */
     }
 
     .footer .wrapper{
@@ -509,7 +504,6 @@
     }
     
     .f-left{
-        /* padding-left: 20%; */
         padding-top: 0px;
     }
 
@@ -518,12 +512,8 @@
         padding-bottom: 20px;
     }
 
-    .hb-left{
-        float: left;
-        /* 590px; */
-        width:0px;
-        line-height:0px;
-        display: none;
+    .header-bottom .wrapper{
+        position: relative;
     }
 
     .hb-right{
